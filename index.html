@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name = "viewport" content ="width=device-width, initial-scale =1.0">
+		    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"rel="stylesheet"/>
+				<link rel = "stylesheet" href="styles.css" />
+
+		<title>Travel Agency</title>
+		</head>
+	<body>
+		<nav>
+					<div class="nav__header">
+						<div class = "nav__logo">
+							<a href = "#">
+								<img src="assets/logo.png" alt ="logo"/>
+							</a>
+						</div>	
+						<div class="nav__menu__btn" id ="menu-btn">
+							<i class= "ri-menu-3-line"></i>
+						</div>
+					</div>
+					<ul class="nav__links" id="nav-links">
+						<li><a href ="#home">Home</a></li>
+						<li><a href ="#about">Nosotros</a></li>
+            <li><a href ="#tour">Viajes</a></li>
+            <li><a href ="#contact">Contacto</a></li>
+						<li>
+							<button class ="btn">
+								Viajemos 
+								<span><i class ="ri-arrow-right-long-line"></i></span>
+							</button>
+						</li>
+					
+					</ul>
+		 </nav>
+		 <!---------------HEADER SECTION ------------------------------>
+		 <header class="section__container header__container" id ="home">
+			 <div class = "header__image">
+				 <img src ="assets/header.png" alt="header" />
+			 </div>
+			 <div class="header__content">
+				 <img src = "assets/plane.png" alt="plane"/>
+				 <h1>Explora  disfruta tus Viaje</h1>
+				 <p class="section__description">
+						Descubre increibles destinos y crea momentos con Travel Agency. Desde viajes nacionales hasta internacionales. Ayudamos hacer tu
+						s sue;os una realidad
+				 </p>
+				 <!------------------FORM----------------->
+				 <form action="/">
+					 <div class="input__group">
+						 <label for="location">
+							 <span><i class="ri-map-pin-line"></i></span> Location
+						 </label>
+								 <input  type="text" name="location" placeholder="Sahara Desert, Algeria" />
+					</div>
+     			<div class="input__group">
+						<label for="date">
+						 <span><i class="ri-calendar-line"></i></span> Date
+						</label>
+		          <input type="text" name="location" placeholder="18th, December 2024"  />
+					 </div>
+											<button class="btn">
+													 <i class="ri-search-line"></i>																																												                              </button>  
+
+													 <!----------------END OF FORM------------>						
+				 </form>																																																				
+			 </div>
+		 </header>
+		 <!---------------------END OF HEADER--------------->
+		 <section class="about" id = "about">
+			 <div class="section__container about__container">
+				  <div class="about__image">
+				     <img src="assets/about.jpg" alt="about">
+			    </div>
+			 <div class="about__content">
+				 <h2 class="section__header">
+					 Es tiempo de un <span> Nuevo Viaje </span> no esperes mas,
+				 </h2>
+				 <p class="section__description">
+vdvanto, creemos que cada viaje es una historia que espera ser contada.
+			 Ya sea que busques la tranquilidad de la naturaleza, el encanto de
+			 las ciudades históricas o la emoción de nuevas culturas, estamos aquí para
+			 convertir tus sueños de viaje en realidad. ¿A qué esperas? Prepara tus maletas,
+			 sal de tu zona de confort y deja que Advanto te guíe hacia tu
+			 próxima gran experiencia.
+				 </p>
+				 <div class="about__signature">Howard</div>
+			 </div>	
+		</div> 
+		 </section>
+		 <!---------TOUR SECTION    ----------->
+		 <section class="section__container tour__container" id="tour">
+			 <h3 class="section__subheader">Tipo de Tour</h3>
+			 <h2 class="section__header">Selecciona Tipo de Tour</h2>
+			 <div class="tour__grid">
+				 <div class ="tour__card">
+					 <img src="assets/tour-1.jpg" alt="tour"/>
+					 <h4>Aventuras de Campo</h4>
+					 <p>+15 Tour</p>
+				 </div>
+	       <div class ="tour__card">
+					 <img src="assets/tour-2.jpg" alt="tour"/>
+					 <h4>Aventura Extremas</h4>
+					 <p>+10 Tours</p>
+				 </div>
+	       <div class ="tour__card">
+					 <img src="assets/tour-3.jpg" alt="tour"/>
+					 <h4>Vacaciones de Playa</h4>
+					 <p>+15 Tour</p>
+				 </div>
+      	 <div class ="tour__card">
+					 <img src="assets/tour-4.jpg" alt="tour"/>
+					 <h4>Vacaciones de Ciudad</h4>
+					 <p>+15 Tour</p>
+				 </div>
+			 </div>
+			 <div class="tour__btn">
+				 <button class="btn">Show All
+				   <span><i class="ri-arrow-right-long-line"></i></span>
+         </button>
+				 </div>
+		 </section>
+		
+		 <!---------TOUR SECTION    ----------->
+		
+		 <!---------DESTINATION  SECTION    ----------->
+
+
+		 <section class="destination">
+			 <div class="section__container destination__container">
+				 <h3 class="section__subheader">Top Destinos</h3>
+				 <h2 class="section__header">Nuestros Top Destinos</h2>
+				
+				 <div class="destination__grid">
+				
+					 <div class="destination__card">
+						 <img src ="assets/destination-1.jpg" alt="destination" />
+						 <div class="destination__card__content">
+							 <h4>Disfruta el Tour de la Ciudad del Amor</h4>
+							 <h5>Paris, Francia</h5>
+							 <div class="destination__card__footer">
+								 <h6>$3000</h6>
+								 <p>(6 dias)</p>
+							 </div>
+						 </div>
+					 </div>
+          
+					 <div class="destination__card">
+	         	 <img src ="assets/destination-2.jpg" alt="destination" />
+						 <div class="destination__card__content">
+							 <h4>Disfruta el Tour de la Ciudad del Amor</h4>
+							 <h5>Paris, Francia</h5>
+							 <div class="destination__card__footer">
+								 <h6>$3000</h6>
+								 <p>(6 dias)</p>
+							 </div>
+						 </div>
+					 </div>
+
+				 <div class="destination__card">
+						 <img src ="assets/destination-3.jpg" alt="destination" />
+						 <div class="destination__card__content">
+							 <h4>Disfruta el Tour de la Ciudad del Amor</h4>
+							 <h5>Paris, Francia</h5>
+							 <div class="destination__card__footer">
+								 <h6>$3000</h6>
+								 <p>(6 dias)</p>
+							 </div>
+						 </div>
+					 </div>
+				 </div>
+
+				 <div class="destination__btn">
+					 <button class="btn">
+						 Show All 
+						 <span><i class="ri-arrow-right-long-line"></i></span>
+					 </button>
+				 </div>
+			  </div>
+		 </section>
+
+     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+		 <script src ="main.js"></script>
+	</body>
+</html>
