@@ -5,8 +5,12 @@
 		<meta name = "viewport" content ="width=device-width, initial-scale =1.0">
 		    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"rel="stylesheet"/>
 				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+				<!-------  emailjs -- init---->
+				<script type="text/javascript"
+						src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+				</script>			
 
-				<link rel = "stylesheet" href="styles.css" />
+			<link rel = "stylesheet" href="styles.css" />
 
 		<title>Travel Agency</title>
 		</head>
@@ -254,8 +258,63 @@ vdvanto, creemos que cada viaje es una historia que espera ser contada.
 						 <img src="assets/banner-8.jpg" alt= "banner"/ >
            </div>
 					 </section>
+					 <!--------- CONTACT FORM ------------>
+					 
+					 <section class="contacto">
+						 <div class="section__container">
+						 <div class = "contact-section" id ="contact">
+									 <div class ="section__header">
+										 <h2>Contacta<span>nos</span></h2>
+										 <p class = "section__subheader">Te Ayudamos a viajar seguro</p>
+									 </div>
+						  </div> 	
+														 <form method="post" class="contact-form" id="contact-form">
+															 <label for ="subject">Nombre</label>
+															 <input type ="text" class="form-control" id="name" name="name" placeholder="Nombre" required>
+															<label for ="email">Email</label>
+															 <input type ="email" class="form-control" id="email" name="email" placeholder="Tu email" required>
+															<label for ="email">Mensaje</label>
+															 <textarea class="form-control" id="message" rows="3" name="message" placeholder="Mensaje" required></textarea>
+															 <button type ="submit" class="btn" >Enviar</button>		
+															 
+															
+											      </form>
+							</div>
+					 </section> 
+          <!---------- SOCIALS   ------->
+					 <section>
+ 						 <div id="contact">
+							 <div class="section__container footer__container" >
+								 <div class="footer__logo">
+									 <img src="assets/logo.png" alt="logo">
+								 </div>
+								 <ul class="footer__links">
+						  		<li><a href ="#home">Home</a></li>
+					       	<li><a href ="#about">Nosotros</a></li>
+                  <li><a href ="#tour">Viajes</a></li>
+                  <li><a href ="#contact">Contacto</a></li>					
+								 </ul>
+								 <ul class="footer__socials">
+									 <li>
+										 <a href="#"><i class="ri-facebook-fill"></i></a>
+									 </li>
+									 <li>
+										 <a href="#"><i class="ri-twitter-fill"></i></a>
+									 </li>
+                   <li>
+										 <a href="#"><i class="ri-instagram-fill"></i></a>
+									 </li>
+								 </ul>
+						 </div>	
+						 <div class="footer__bar">
+								Copyright 2026 Kayuco Design.  Todos los Derechos Reservados
+						 </div>
+					 </section>
+
+
      <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	
 		 <script src ="main.js"></script>
 	</body>
 </html>

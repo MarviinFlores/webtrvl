@@ -69,8 +69,39 @@ const swiper = new Swiper(".swiper", {
 	  loop: true,
 });
 
+const banner = document.querySelector(".banner__wrapper");
+const bannerImages = Array.from(banner.children);
 
+bannerImages.forEach((item) => {
 
+	  const duplicateNode = item.cloneNode(true);
 
+	  duplicateNode.setAttribute("aria-hidden", true);
+
+	  banner.appendChild(duplicateNode);
+
+	
+});
+
+						emailjs.init({publicKey:"OhM264xdidEe0KoPb",});
+  				document.getElementById("contact-form").addEventListener("submit",function(event){
+					event.preventDefault();
+           
+						 const formData ={
+						    name : document.getElementById("name").value,
+                email : document.getElementById("email").value,
+                message : document.getElementById("message").value
+              }     						
+				
+						/* console.table(formData); */
+
+  emailjs.send("service_cgh8acw","template_6yuohqu",formData)
+						.then(() => {
+							alert ("Mensaje enviado");
+						})
+							.catch((error) =>{
+								console.error("Nose envio mail",error);
+							} )
+					});
 
 
