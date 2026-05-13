@@ -124,7 +124,7 @@
                  }
 
                  .nav__logo a img {
-                     max-width: 100px;
+                     max-width: 200px;
                      
                  }
 
@@ -187,7 +187,7 @@
                  }
 
                  .header__image img {
-                     max-width: 600px;
+                     max-width:600px;
                        margin-inline: auto;
                        
                  }
@@ -537,6 +537,8 @@
                }
                .contact-form textarea.form-control{
                                   resize: none;
+                                  line-height: 1.5;
+                                
                                                   
                }
                .contact-form .submit-btn{
@@ -551,7 +553,7 @@
                }
 
                .footer__logo img {
-                   max-width: 150px;
+                   max-width: 350px;
                      margin-inline: auto;
                }
                .footer__links {
